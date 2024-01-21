@@ -1,0 +1,17 @@
+
+git commands
+
+git init - initialize new git repository
+git status - show status of files
+git add --a  - all modified files are staged 
+git add filename.ext - stage any specific file
+git commit -m "Your message" - staged files are commited
+git log - show commit status
+git clone url changed_name - edit copy of remote git repository through url
+rm -rf .git - delete git repository with .git folder
+
+basic terminal commands
+
+pwd - shows in which directory you are
+ls - shows all the files present in the current directory
+cd directory_name - change the directory 
