@@ -9,9 +9,15 @@ git commit -m "Your message" - staged files are commited
 git log - show commit status
 git clone url changed_name - edit copy of remote git repository through url
 rm -rf .git - delete git repository with .git folder
+.gitignore - ignored files are kept into this file
+  ex- file.ext
+      dir/ - to ignore all the dir named folder
+      /dir/ - ignore a specific dir named folder
+      *.log - this will ignore all the files that has extension .log
 
 basic terminal commands
 
 pwd - shows in which directory you are
 ls - shows all the files present in the current directory
 cd directory_name - change the directory 
+touch filename - to make a new empty file
