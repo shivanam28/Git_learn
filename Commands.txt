@@ -3,6 +3,7 @@ git commands
 
 git init - initialize new git repository
 git status - show status of files
+git add . - to stage files
 git add --a  - all modified files are staged 
 git add filename.ext - stage any specific file
 git commit -m "Your message" - staged files are commited
@@ -14,6 +15,36 @@ rm -rf .git - delete git repository with .git folder
       dir/ - to ignore all the dir named folder
       /dir/ - ignore a specific dir named folder
       *.log - this will ignore all the files that has extension .log
+git diff - it compares the staging area files with the untracked files
+git diff --staged - compare the difference between the last commit files and the current staged files
+git rm file.txt - remove the file (delete) automatically remove and staged it.
+git mv file.txt new_file.text - rename the file and staged it too
+git rm --cached file.txt - untrack file from index 
+git commit -a -m "message" - direct commit of tracked files without staging
+rm -rf .git - ungit a git repository
+q - press q to exit log file
+git restore --staged file_name - this command will unstage file from staging area
+git checkout -- filename - this will restore the last commit. Show last changes you have done if deleted
+git checkout -f - this will match you to the last commit
+
+remote commands 
+
+
+git remote add origin url - this will connect us to a remote repository you can write any call_name instead of origin 
+git remote - this command shows you all the remote repository available
+git remote -v - this will show you call_name with url with fetch and push info
+
+
+filter log commands
+
+git log -p - show commit in detail (what is removed and what add)
+git log -p -3 - show only 3 commits
+git log --stat - show commit details in short 
+git log --pretty=oneline - shows commit details in one line
+git log --pretty="%h -- %an" - shows commit with auther name 
+git commit --amend - amend means change 
+                     it opens vim editor, press i for edit
+                     press esc, then :wq then enter
 
 basic terminal commands
 
@@ -21,3 +52,9 @@ pwd - shows in which directory you are
 ls - shows all the files present in the current directory
 cd directory_name - change the directory 
 touch filename - to make a new empty file
+
+
+
+
+Generate ssh key in github
+
