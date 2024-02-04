@@ -1,4 +1,3 @@
-
 git commands
 
 git init - initialize new git repository
@@ -27,8 +26,8 @@ git restore --staged file_name - this command will unstage file from staging are
 git checkout -- filename - this will restore the last commit. Show last changes you have done if deleted
 git checkout -f - this will match you to the last commit
 
-remote commands 
 
+remote commands 
 
 git remote add origin url - this will connect us to a remote repository you can write any call_name instead of origin 
 git remote - this command shows you all the remote repository available
@@ -56,5 +55,5 @@ touch filename - to make a new empty file
 
 
 
-Generate ssh key in github
+Generate SSH key in github?
 
