@@ -55,5 +55,23 @@ touch filename - to make a new empty file
 
 
 
-Generate SSH key in github?
+Generate SSH key in github? (to get permission to push files in remote rep)
+
+settings > SSH keys > new SSH key > enter these commands
+
+ssh-keygen -t rsa -b 4096 -C "your email" - generate ssh key 
+eval $$(ssh-agent -s) - return agent pid
+ssh-add ~/.ssh/id_rsa - add identity 
+tail ~/.ssh/id_rsa.pub - return ssh key cpoy it
+
+now the copied ssh key paste it in new SSH key field and after that your ssh key is added!..
+
+
+
+
+To make shortcut of commands use 
+
+git config --global alias.st status - everytime you write st. It takes it as status.
+git config --global alias.unstage 'restore --stagged--' - this unstage word will now take it as to restore stagged files.
+git config --global alias.last 'log -p -1' - To watch last commit
 
