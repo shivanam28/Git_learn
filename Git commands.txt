@@ -25,6 +25,7 @@ q - press q to exit log file
 git restore --staged file_name - this command will unstage file from staging area
 git checkout -- filename - this will restore the last commit. Show last changes you have done if deleted
 git checkout -f - this will match you to the last commit
+git push - to push all commits to remote repository
 
 
 remote commands 
