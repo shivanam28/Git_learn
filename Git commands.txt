@@ -28,6 +28,14 @@ git checkout -f - this will match you to the last commit
 git push - to push all commits to remote repository
 
 
+
+Connecting remote repository to system folder
+
+git remote add origin https://github.com/shivanam28/DSA.git
+git branch -M main
+git push -u origin main
+
+
 remote commands 
 
 git remote add origin url - this will connect us to a remote repository you can write any call_name instead of origin 
